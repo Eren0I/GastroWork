@@ -1,0 +1,336 @@
+/* @media (min-height: 875px){
+  body{
+    background-color: #c3e4ff;
+    overflow-y: hidden;
+  }
+    } */
+body{ 
+  width:100%; overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#title{
+  background-color: transparent;
+  color: white;
+
+}
+.container-fluid{
+  padding: 0 5% 7% ;
+}
+
+
+
+/* navbar */
+.navbar{
+  display: flex;
+    padding: 0 0 4.5rem;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+.navbar-brand{
+  font-family: 'STIX Two Text', serif;
+  font-size: 2.5rem;
+
+}
+.nav-item{
+  padding: 0 18px 0 18px;
+  position: relative;
+
+}
+.nav-link{
+  font-family: 'STIX Two Text', serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+#beyaz{
+  width: 100%;
+  position: relative;
+  background-size: cover;
+
+}
+
+#gradient-canvas {
+  width:100%;
+  height:290%;
+  position: absolute;
+  top: 0;
+  left: 0;;
+  z-index:-1;
+  clip-path: polygon(0 0,100% 0,100% 70%, 0%);
+  --gradient-color-1: #c3e4ff; 
+  --gradient-color-2: #6ec3f4; 
+  --gradient-color-3: #eae2ff;  
+  --gradient-color-4: #b9beff;
+}
+#features{
+  text-align: center;
+
+  padding: 6% 15% ;
+  background-color: transparent;
+ position: relative;
+ z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+
+
+
+  h1 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: 'Lora', sans-serif;
+    color: white;
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  h2, h5, h6 {
+    font-family: 'Lora', sans-serif;
+    font-weight: normal;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #333333;
+    margin: 0 0 12px 0;
+  }
+
+
+  p {
+    margin: 0 0 20px 0;
+    font-family: 'STIX Two Text', serif;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+
+html, body {
+    height: 100%;
+    background-color: transparent;
+}
+
+#cta{
+  width:100%; overflow-x: hidden;
+}
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+  overflow: hidden;
+}
+.foot-p{
+  color: #676b96;
+  padding-top:  1.5rem;
+}
+.eren-link{
+  color: #676b96;
+}
+
+.a-i{
+  color: #676b96;
+  padding: 3% 4% 6% 4%;
+
+}
+.a-i:hover{
+  color: #9CB4CC;
+}
+
+.form-holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form-content .form-items {
+    border: 3px solid #fff;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+
+.form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+    color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=email], .form-content select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+}
+
+
+.btn-primary{
+    background-color: #6C757D;
+    outline: none;
+    border: 0px;
+     box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+     box-shadow: none;
+}
+
+.form-content textarea {
+    position: static !important;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    resize: none;
+    height: 120px;
+    -webkit-transition: none;
+    transition: none;
+    margin-bottom: 14px;
+}
+
+.form-content textarea:hover, .form-content textarea:focus {
+    border: 0;
+    background-color: #ebeff8;
+    color: #8D8D8D;
+}
+
+.mv-up{
+    margin-top: -9px !important;
+    margin-bottom: 8px !important;
+}
+
+.invalid-feedback{
+    color: #ff606e;
+}
+
+.valid-feedback{
+   color: #2acc80;
+}
+
+  /* .faface, .fainsta, .fapint {
+    margin: 15px;
+  }
+
+.container {
+    height: 10vh;
+    width: 15%;
+    background: transparent;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+
+
+  /*---styles---
+font-family: 'Kaushan Script', cursive;
+font-family: 'STIX Two Text', serif;
+font-family: 'Lora', serif;
+font-family: 'Raleway', sans-serif;
+#F8F7F3
+#BFA99B
+#333333
+#C2BAB7
+///
+
+--*/
+/* input:invalid{
+  animation: shake 300ms;
+}
+@keyframes shake{
+  25%{
+    transform: translateX(5px);
+  }
+  50%{
+    transform: translateX(-5px);
+  }
+  75%{
+    transform: translateX(5px);
+  }
+} */
